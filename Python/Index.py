@@ -1,6 +1,7 @@
 import sys
-from PyQt5 import QtWidgets, uic
+from PyQt5 import QtCore,QtWidgets, uic
 
+QtCore.QCoreApplication.setAttribute(QtCore.Qt.AA_EnableHighDpiScaling)
 # Paths to your UI files
 ui_file_main = "UI/Front_page.ui"
 ui_file_1 = "UI/Line_Rejection.ui"
